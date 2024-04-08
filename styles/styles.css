@@ -1,0 +1,52 @@
+header{
+  text-align: center;
+}
+#week-calendar{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  border: 2px solid grey ;
+  border-radius: 5px;
+  height: 100%;
+}
+#header-div{
+  display: flex;
+  justify-content: space-evenly;
+}
+.weekday, .header{
+  text-align: center;
+  font-size: 20px;
+}
+.weekday{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  border: 2px solid grey ;
+  border-radius: 5px;
+  background-color: #E6E6FA;
+}
+.inputBar{
+  border: none;
+}
+.noDot{
+  list-style-type: none;
+}
+
+.xButton{
+  margin-right: 16px;
+  height: 16px;
+  width: 20px;
+  padding: 20px;
+  background-color: Transparent;
+  background-repeat:no-repeat;  
+}
+
+.item{
+  display: flex; 
+  justify-content: space-evenly;
+  gap: 20px;
+  background: white;
+}
+
+
